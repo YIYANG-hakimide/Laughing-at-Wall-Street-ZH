@@ -1,0 +1,13 @@
+{
+  "source": "Laughing at Wall Street EPUB",
+  "assets": [
+    {"file":"assets/01_Title_Page_fmt.jpeg","source":"OEBPS/Images/01_Title_Page_fmt.jpeg","used_in":"title page"},
+    {"file":"assets/9781429989664.jpg","source":"OEBPS/Images/9781429989664.jpg","used_in":"cover metadata"},
+    {"file":"assets/e-pub_2011-08-11-chr_fmt.jpeg","source":"OEBPS/Images/e-pub_2011-08-11-chr_fmt.jpeg","used_in":"author page"},
+    {"file":"assets/Figure01_fmt.jpeg","source":"OEBPS/Text/intro.html img ../Images/Figure01_fmt.jpeg","used_in":"Introduction"},
+    {"file":"assets/Figure02_fmt.jpeg","source":"OEBPS/Text/chapter6.html img ../Images/Figure02_fmt.jpeg","used_in":"Chapter 6"}
+  ],
+  "tables": [
+    {"source":"OEBPS/Text/chapter3.html table","used_in":"Chapter 3 Markdown table"}
+  ]
+}

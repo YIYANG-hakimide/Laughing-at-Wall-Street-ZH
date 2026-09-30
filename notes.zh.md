@@ -6,13 +6,13 @@
 
 3. William Goldman，《银幕交易历险记》，纽约：Warner Books，1983年，第39页。
 
-Bill Barker，“共同基金的表现”，The Motley Fool，可查阅 www.fool.com。
+4. Bill Barker，“共同基金的表现”，The Motley Fool，可查阅 www.fool.com。
 
-标准普尔指数与主动型基金计分卡，www2.standardandpoors.com。
+5. 标准普尔指数与主动型基金计分卡，www2.standardandpoors.com。
 
-H. C. Engelbrecht 与 F. C. Hanighen 编，《死亡商人：国际军火工业研究》，纽约：Dodd, Mead & Company，1934年，第69–70页。
+6. H. C. Engelbrecht 与 F. C. Hanighen 编，《死亡商人：国际军火工业研究》，纽约：Dodd, Mead & Company，1934年，第69–70页。
 
-Srikant Dash，多数主动型基金经理跑输基准——过去五年所有类别均如此，标准普尔新闻稿，2009年4月20日。
+7. Srikant Dash，多数主动型基金经理跑输基准——过去五年所有类别均如此，标准普尔新闻稿，2009年4月20日。
 
 8. Vincent P. Carosso，《摩根家族：私人国际银行家，1854—1913》，马萨诸塞州剑桥：Harvard University Press，1987年，第94—95页。
 

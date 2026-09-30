@@ -35,7 +35,7 @@ function buildToc() {
 }
 
 function zhTitle(t, id) {
-  const fixed = {Preface: '序言', Introduction: '引言', Appendix: '附录', Notes: '注释', Acknowledgments: '致谢'};
+  const fixed = {Preface: '序言', Intro: '引言', Introduction: '引言', Appendix: '附录', Notes: '注释', Acknowledgments: '致谢'};
   if (fixed[t]) return fixed[t];
   const m = String(t).match(/Chapter\s+(\d+)/i);
   if (m) return '第' + m[1] + '章';

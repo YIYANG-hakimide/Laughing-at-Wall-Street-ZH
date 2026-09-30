@@ -1,7 +1,7 @@
 let book, current = 0;
 const $ = s => document.querySelector(s);
 
-fetch('book.json').then(r => r.json()).then(b => {
+fetch('book.json?rev=26ced49', {cache: 'no-store'}).then(r => r.json()).then(b => {
   book = b;
   buildToc();
   const wanted = location.hash.slice(1);

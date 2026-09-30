@@ -1,5 +1,9 @@
 # 序言
 
+![书名页](assets/01_Title_Page_fmt.jpeg)
+
+![作者页](assets/e-pub_2011-08-11-chr_fmt.jpeg)
+
 人们可能会怀疑你说的话，但他们会相信你做的事。
 
 ——刘易斯·卡斯

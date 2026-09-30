@@ -1,0 +1,7 @@
+let book,current=0;const $=s=>document.querySelector(s);
+fetch('book.json').then(r=>r.json()).then(b=>{book=b;buildToc();render(0)});
+function buildToc(){book.chapters.forEach((c,i)=>{let a=document.createElement('a');a.href='#'+c.id;a.textContent=zhTitle(c.title);a.onclick=e=>{e.preventDefault();render(i);document.querySelector('aside').classList.remove('open')};a.id='toc-'+i;$('#toc').append(a)})}
+function zhTitle(t){return ({'Preface':'序言','Introduction':'引言','Appendix':'附录','Notes':'注释'})[t]||t}
+function render(i){current=i;let c=book.chapters[i];$('#reader').innerHTML='<h2>'+esc(zhTitle(c.title))+'</h2>'+c.blocks.map(b=>b.type==='heading'?'<h3>'+esc(b.text)+'</h3>':'<p>'+esc(b.text)+'</p>').join('');document.querySelectorAll('nav a').forEach((a,j)=>a.classList.toggle('active',j===i));$('#progress').textContent=(i+1)+' / '+book.chapters.length;history.replaceState(null,'','#'+c.id);window.scrollTo({top:0,behavior:'smooth'})}
+function esc(s){return s.replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]))}
+$('#prev').onclick=()=>render(Math.max(0,current-1));$('#next').onclick=()=>render(Math.min(book.chapters.length-1,current+1));$('#theme').onclick=()=>document.body.classList.toggle('eye');$('#menu').onclick=()=>document.querySelector('aside').classList.toggle('open');$('#size').oninput=e=>$('#reader').style.fontSize=e.target.value+'px';
